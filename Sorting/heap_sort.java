@@ -38,7 +38,7 @@ public class heap_sort {
             arr[i]=arr[largest];
             arr[largest]=temp;
             
-            Heapify(arr,n,largest);
+            Heapify(arr,n,largest);//heapify recursively
         }
         }
         static void printArray(int arr[])
