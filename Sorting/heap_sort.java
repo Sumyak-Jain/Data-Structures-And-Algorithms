@@ -28,7 +28,7 @@ public class heap_sort {
             int largest=i;//storing the parent of subtree as the largest elemnet
             int l=2*i+1;//left child of parent
             int r=2*i+2;//right child of parent
-        if(l<n && arr[l]>arr[largest])
+        if(l<n && arr[l]>arr[largest])//check the condition and change largest accordingly
             largest=l;
         if(r<n && arr[r]>arr[largest])
             largest=r;
