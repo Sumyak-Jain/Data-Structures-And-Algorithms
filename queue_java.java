@@ -18,7 +18,7 @@ class queue {
         }
         return;
     }
-    static void Dequeue(){
+    static void Dequeue(){//method for deletion in Queue
         if(front==rear){
             System.out.println("Queue is empty");
             return;
