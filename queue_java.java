@@ -25,7 +25,7 @@ class queue {
         }
         else{
             for(int i=0;i<rear-1;i++){
-                Queue[i]=Queue[i+1];
+                Queue[i]=Queue[i+1];//shifting the palces to left
             }
             if(rear<capacity)
                 Queue[rear]=0;
