@@ -35,7 +35,7 @@ class queue {
         }
         
     }
-    static void display(){
+    static void display(){//method to display the queue
          int i; 
         if (front == rear) { 
             System.out.println("Queue is Empty"); 
