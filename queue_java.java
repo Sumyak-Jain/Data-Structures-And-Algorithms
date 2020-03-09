@@ -1,3 +1,4 @@
+//queue implementation using array in java
 class queue {
    static  int front,rear,capacity;
     static int Queue[];
