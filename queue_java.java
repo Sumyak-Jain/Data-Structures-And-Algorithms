@@ -48,7 +48,7 @@ class queue {
     }}
     public class queue_java{
     public static void main(String[] args) {
-        queue obj=new queue(5);
+        queue obj=new queue(5);//making a queue of capacity 5
         obj.display();
         obj.Enqueue(10);
         obj.Enqueue(20);
