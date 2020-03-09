@@ -7,7 +7,7 @@ class queue {
         capacity=c;
         Queue=new int[capacity];
     }
-    static void Enqueue(int n){
+    static void Enqueue(int n){//method for insertion in Queue
         if(capacity==rear){
             System.out.println("Queue is full");
             return;
