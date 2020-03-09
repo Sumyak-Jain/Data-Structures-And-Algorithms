@@ -49,8 +49,8 @@ class queue {
     public class queue_java{
     public static void main(String[] args) {
         queue obj=new queue(5);//making a queue of capacity 5
-        obj.display();
-        obj.Enqueue(10);
+        obj.display();//display without insertion
+        obj.Enqueue(10);//inserting in Queue
         obj.Enqueue(20);
         obj.Enqueue(30);
         obj.Enqueue(40);
@@ -58,9 +58,9 @@ class queue {
         
         System.out.println("queue after insertion");
         
-        obj.display();
+        obj.display();//display after insertion
         
-        obj.Dequeue();
+        obj.Dequeue();//deleting from Queue
         obj.Dequeue();
         System.out.println("queue after deletion");
         obj.display();
