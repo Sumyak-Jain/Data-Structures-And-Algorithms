@@ -2,7 +2,7 @@
 class queue {
    static  int front,rear,capacity;
     static int Queue[];
-    queue(int c){
+    queue(int c){//constructor
         front=rear=0;
         capacity=c;
         Queue=new int[capacity];
