@@ -1,3 +1,5 @@
+![alt txt](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190529171221/Learning-Data-Structures-and-Algorithms-is-Important1-1024x424.png)
+
 # Topics Covered
 
 ### [1. Arrays](https://github.com/Sumyak-Jain/Data-Structures-And-Algorithms/tree/master/DS%20%26%20Algorithms/DS/Arrays)
