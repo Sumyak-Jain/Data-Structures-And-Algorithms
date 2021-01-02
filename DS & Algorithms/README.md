@@ -1,7 +1,8 @@
 # Topics Covered
 
-Arrays
-Back Tracking
+## 1. Arrays
+
+## 2. Back Tracking
 Binary Search Trees
 Binary Trees
 Bit Manipulation
