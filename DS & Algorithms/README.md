@@ -3,7 +3,7 @@
 ### 1. Arrays
 
 ### 2. Back Tracking
-Binary Search Trees
+### 3. Binary Search Trees
 Binary Trees
 Bit Manipulation
 Dynamic Programming
