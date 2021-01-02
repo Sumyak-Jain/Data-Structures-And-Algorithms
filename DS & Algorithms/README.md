@@ -1,6 +1,6 @@
 # Topics Covered
 
-[1. Arrays](https://github.com/Sumyak-Jain/Data-Structures-And-Algorithms/tree/master/DS%20%26%20Algorithms/DS/Arrays)
+### [1. Arrays](https://github.com/Sumyak-Jain/Data-Structures-And-Algorithms/tree/master/DS%20%26%20Algorithms/DS/Arrays)
 ### 2. Back Tracking
 ### 3. Binary Search Trees
 ### 4. Binary Trees
