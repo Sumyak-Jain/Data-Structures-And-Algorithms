@@ -6,7 +6,6 @@ In Pass 2, A[0] is compared with A[1], A[1] is compared with A[2] and so on. At 
 In pass n-1, A[0] is compared with A[1], A[1] is compared with A[2] and so on. At the end of this pass. The smallest element of the list is placed at the first index of the list.
 **/
 //java program
-
 import java.util.Scanner;
 public class bubble_sort {
     public static void main(String[] args) {
