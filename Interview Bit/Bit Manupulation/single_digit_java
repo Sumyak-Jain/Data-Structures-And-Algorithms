@@ -1,0 +1,11 @@
+public class Solution {
+    // DO NOT MODIFY THE LIST. IT IS READ ONLY
+    public int singleNumber(final List<Integer> A) {
+         int number = 0;
+        for(int i=0; i<A.size();i++){
+            number ^= A.get(i);
+        }
+        return number;
+    }
+}
+
