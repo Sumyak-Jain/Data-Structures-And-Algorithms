@@ -1,17 +1,39 @@
 class Solution {
     public ListNode mergeTwoLists(ListNode A, ListNode B) {
-        if(A == null) return B;
-        if(B == null) return A;
-         
-        if(A.val < B.val)
-        {
-            A.next = mergeTwoLists(A.next, B);
-            return A;
+      ListNode one=A;
+      ListNode two=B;
+      ListNode result=new ListNode(0);
+      ListNode s=result;
+        
+       while(one != null && two != null){
+           if(one.val <=  two.val){
+               s.next=one;
+               one=one.next;
+             
+           }
+           else{
+               s.next=two;
+               two=two.next;
+              
+           }
+           
+           s=s.next;
+           
+       }
+        
+        
+        while(one!=null){
+             s.next=one;
+            one=one.next;
+            s=s.next;
+          
         }
-        else
-        {
-            B.next =mergeTwoLists (A, B.next);
-            return B;
+         while(two != null){
+             s.next=two;
+             two=two.next;
+             s=s.next;
         }
+        
+        return result.next;
     }
 }
