@@ -1,0 +1,15 @@
+**Employer**   --> Table 1
+eID
+eName
+
+**Position** --> Table 2
+eID
+salary
+
+Ques) Determine what is the max salary , and print only the eName
+Querry) 
+ SELECT e.name
+  FROM EMPLOYER e
+  JOIN POSITION x ON x.eid = e.eid
+  JOIN (SELECT MAX(salary) AS max_salary
+          FROM POSITION) y ON y.max_salary = x.salary
